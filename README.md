@@ -7,16 +7,12 @@ export default function PlayerForm() {
     <div
       className="flex flex-col items-center justify-center min-h-screen"
       style={{
-        backgroundImage: "url('/uploads/Cópia de do dia 29 de janeiro (2).png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
     >
       <Card className="w-full max-w-3xl shadow-xl border border-gray-300 bg-opacity-90 backdrop-blur-md">
         <CardContent>
-          <div className="flex justify-center mb-6">
-            <img src="/logo-torino.png" alt="CT Torino Logo" className="h-16" />
-          </div>
           <h1 className="text-2xl font-bold text-center text-green-700 mb-6">
             Ficha Técnica - CT Torino
           </h1>
